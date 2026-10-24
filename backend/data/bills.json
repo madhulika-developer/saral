@@ -1,0 +1,274 @@
+[
+  {
+    "user_id": "user_1",
+    "utility": "electricity",
+    "consumer_number": "APCPDCL-VJA-84920",
+    "history": [
+      {
+        "bill_id": "EL-2026-01",
+        "month": "Jan 2026",
+        "billing_period": "01 Jan 2026 - 31 Jan 2026",
+        "units": 130,
+        "amount": 574.0,
+        "due_date": "2026-02-15",
+        "paid_date": "2026-02-10",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-02",
+        "month": "Feb 2026",
+        "billing_period": "01 Feb 2026 - 28 Feb 2026",
+        "units": 138,
+        "amount": 621.0,
+        "due_date": "2026-03-15",
+        "paid_date": "2026-03-11",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-03",
+        "month": "Mar 2026",
+        "billing_period": "01 Mar 2026 - 31 Mar 2026",
+        "units": 152,
+        "amount": 702.0,
+        "due_date": "2026-04-15",
+        "paid_date": "2026-04-12",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-04",
+        "month": "Apr 2026",
+        "billing_period": "01 Apr 2026 - 30 Apr 2026",
+        "units": 160,
+        "amount": 748.0,
+        "due_date": "2026-05-15",
+        "paid_date": "2026-05-12",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-05",
+        "month": "May 2026",
+        "billing_period": "01 May 2026 - 31 May 2026",
+        "units": 175,
+        "amount": 831.0,
+        "due_date": "2026-06-15",
+        "paid_date": "2026-06-12",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-06",
+        "month": "Jun 2026",
+        "billing_period": "01 Jun 2026 - 30 Jun 2026",
+        "units": 285,
+        "amount": 1641.0,
+        "due_date": "2026-07-15",
+        "paid_date": null,
+        "status": "unpaid_processing",
+        "notes": "Units doubled primarily due to extreme heatwave in Vijayawada (43°C peak) and continuous usage of newly installed 1.5 ton AC."
+      }
+    ]
+  },
+  {
+    "user_id": "user_1",
+    "utility": "water",
+    "consumer_number": "VMC-WTR-20491",
+    "history": [
+      {
+        "bill_id": "WT-2026-01",
+        "month": "Jan 2026",
+        "billing_period": "01 Jan 2026 - 31 Jan 2026",
+        "units": 18,
+        "amount": 345.0,
+        "due_date": "2026-02-18",
+        "paid_date": "2026-02-14",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-02",
+        "month": "Feb 2026",
+        "billing_period": "01 Feb 2026 - 28 Feb 2026",
+        "units": 17,
+        "amount": 331.0,
+        "due_date": "2026-03-18",
+        "paid_date": "2026-03-14",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-03",
+        "month": "Mar 2026",
+        "billing_period": "01 Mar 2026 - 31 Mar 2026",
+        "units": 19,
+        "amount": 359.0,
+        "due_date": "2026-04-18",
+        "paid_date": "2026-04-15",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-04",
+        "month": "Apr 2026",
+        "billing_period": "01 Apr 2026 - 30 Apr 2026",
+        "units": 18,
+        "amount": 345.0,
+        "due_date": "2026-05-18",
+        "paid_date": "2026-05-15",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-05",
+        "month": "May 2026",
+        "billing_period": "01 May 2026 - 31 May 2026",
+        "units": 19,
+        "amount": 359.0,
+        "due_date": "2026-06-18",
+        "paid_date": "2026-06-15",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-06",
+        "month": "Jun 2026",
+        "billing_period": "01 Jun 2026 - 30 Jun 2026",
+        "units": 18,
+        "amount": 345.0,
+        "due_date": "2026-07-18",
+        "paid_date": "2026-07-02",
+        "status": "paid",
+        "notes": "Regular domestic metered consumption."
+      }
+    ]
+  },
+  {
+    "user_id": "user_2",
+    "utility": "water",
+    "consumer_number": "VMC-WTR-39211",
+    "history": [
+      {
+        "bill_id": "WT-2026-01",
+        "month": "Jan 2026",
+        "billing_period": "01 Jan 2026 - 31 Jan 2026",
+        "units": 22,
+        "amount": 420.0,
+        "due_date": "2026-02-18",
+        "paid_date": "2026-02-12",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-02",
+        "month": "Feb 2026",
+        "billing_period": "01 Feb 2026 - 28 Feb 2026",
+        "units": 20,
+        "amount": 380.0,
+        "due_date": "2026-03-18",
+        "paid_date": "2026-03-12",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-03",
+        "month": "Mar 2026",
+        "billing_period": "01 Mar 2026 - 31 Mar 2026",
+        "units": 24,
+        "amount": 460.0,
+        "due_date": "2026-04-18",
+        "paid_date": "2026-04-14",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-04",
+        "month": "Apr 2026",
+        "billing_period": "01 Apr 2026 - 30 Apr 2026",
+        "units": 28,
+        "amount": 560.0,
+        "due_date": "2026-05-18",
+        "paid_date": "2026-05-14",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-05",
+        "month": "May 2026",
+        "billing_period": "01 May 2026 - 31 May 2026",
+        "units": 25,
+        "amount": 490.0,
+        "due_date": "2026-06-18",
+        "paid_date": "2026-06-13",
+        "status": "paid"
+      },
+      {
+        "bill_id": "WT-2026-06",
+        "month": "Jun 2026",
+        "billing_period": "01 Jun 2026 - 30 Jun 2026",
+        "units": 38,
+        "amount": 881.0,
+        "due_date": "2026-07-18",
+        "paid_date": null,
+        "status": "unpaid",
+        "notes": "Surge due to reported overhead storage tank float valve malfunction."
+      }
+    ]
+  },
+  {
+    "user_id": "user_2",
+    "utility": "electricity",
+    "consumer_number": "APCPDCL-VJA-11942",
+    "history": [
+      {
+        "bill_id": "EL-2026-01",
+        "month": "Jan 2026",
+        "billing_period": "01 Jan 2026 - 31 Jan 2026",
+        "units": 170,
+        "amount": 804.0,
+        "due_date": "2026-02-15",
+        "paid_date": "2026-02-10",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-02",
+        "month": "Feb 2026",
+        "billing_period": "01 Feb 2026 - 28 Feb 2026",
+        "units": 165,
+        "amount": 776.0,
+        "due_date": "2026-03-15",
+        "paid_date": "2026-03-10",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-03",
+        "month": "Mar 2026",
+        "billing_period": "01 Mar 2026 - 31 Mar 2026",
+        "units": 180,
+        "amount": 860.0,
+        "due_date": "2026-04-15",
+        "paid_date": "2026-04-10",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-04",
+        "month": "Apr 2026",
+        "billing_period": "01 Apr 2026 - 30 Apr 2026",
+        "units": 190,
+        "amount": 916.0,
+        "due_date": "2026-05-15",
+        "paid_date": "2026-05-11",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-05",
+        "month": "May 2026",
+        "billing_period": "01 May 2026 - 31 May 2026",
+        "units": 185,
+        "amount": 888.0,
+        "due_date": "2026-06-15",
+        "paid_date": "2026-06-11",
+        "status": "paid"
+      },
+      {
+        "bill_id": "EL-2026-06",
+        "month": "Jun 2026",
+        "billing_period": "01 Jun 2026 - 30 Jun 2026",
+        "units": 192,
+        "amount": 927.0,
+        "due_date": "2026-07-15",
+        "paid_date": "2026-07-01",
+        "status": "paid",
+        "notes": "Consistent monthly consumption profile."
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "token_id": "OFF-TOK-88190",
+    "user_id": "user_1",
+    "bill_id": "EL-2026-06",
+    "consumer_number": "APCPDCL-VJA-84920",
+    "amount": 1641.0,
+    "status": "gateway_received",
+    "signed_at": "2026-07-10T14:20:00+05:30",
+    "sms_ref": "SARAL-PAY-88190",
+    "cryptographic_hash": "e7b92f91a28c3104f210d7a90b4e28c",
+    "counter_number": 4,
+    "max_offline_limit": 5000.0,
+    "expiry": "2026-07-13T14:20:00+05:30",
+    "notes": "Cryptographically signed via local hardware keystore without internet."
+  },
+  {
+    "token_id": "OFF-TOK-77201",
+    "user_id": "user_1",
+    "bill_id": "EL-2026-05",
+    "consumer_number": "APCPDCL-VJA-84920",
+    "amount": 831.0,
+    "status": "verified_settled",
+    "signed_at": "2026-06-11T16:10:00+05:30",
+    "settled_at": "2026-06-12T10:15:00+05:30",
+    "sms_ref": "SARAL-PAY-77201",
+    "cryptographic_hash": "a189f33b9c801e04812d7c01b9e54a1",
+    "counter_number": 3,
+    "max_offline_limit": 5000.0,
+    "expiry": "2026-06-14T16:10:00+05:30",
+    "notes": "Delivered via SMS gateway and verified against APCPDCL ledger."
+  }
+]

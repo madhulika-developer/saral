@@ -1,0 +1,203 @@
+[
+  {
+    "payment_id": "PAY-2026-88102",
+    "user_id": "user_1",
+    "utility": "electricity",
+    "bill_id": "EL-2026-06",
+    "consumer_number": "APCPDCL-VJA-84920",
+    "amount": 1641.0,
+    "method": "UPI (Google Pay / SBI)",
+    "upi_ref": "UPI/419208310928/CR",
+    "transaction_ref": "TXN-APCP-993812",
+    "date": "2026-07-10T14:22:15+05:30",
+    "status": "processing",
+    "state_category": "money_deducted_unpaid",
+    "stages": [
+      {
+        "stage": "initiated",
+        "name": "Payment Initiated",
+        "timestamp": "2026-07-10T14:22:15+05:30",
+        "completed": true,
+        "detail": "Payment request initiated on Saral mobile app via UPI intent."
+      },
+      {
+        "stage": "bank_processing",
+        "name": "Money Debited from Bank",
+        "timestamp": "2026-07-10T14:22:28+05:30",
+        "completed": true,
+        "detail": "Debited from SBI Savings A/c ending with **4819. UPI Ref: UPI/419208310928/CR."
+      },
+      {
+        "stage": "gateway_received",
+        "name": "Received by Payment Aggregator",
+        "timestamp": "2026-07-10T14:23:05+05:30",
+        "completed": true,
+        "detail": "Secured in BillDesk APCPDCL settlement pool. Awaiting batch transmission to APCPDCL billing server."
+      },
+      {
+        "stage": "posted_to_account",
+        "name": "Posted to Discom Ledger",
+        "timestamp": null,
+        "completed": false,
+        "detail": "Pending reconciliation batch run. Expected by 2026-07-12T14:22:00+05:30 (within 24-48 business hours)."
+      }
+    ],
+    "explanation": {
+      "status_title": "Payment In Transit (Safe)",
+      "summary": "Your money has left your bank account and is safely held by the utility payment gateway. It takes up to 24-48 hours for APCPDCL's consumer database to sync the receipt.",
+      "action_recommended": "Please do not pay again. If not updated by July 12, use the pre-filled complaint button below.",
+      "posting_window": "24 to 48 hours",
+      "resolution_deadline": "2026-07-12T18:00:00+05:30"
+    }
+  },
+  {
+    "payment_id": "PAY-2026-77312",
+    "user_id": "user_1",
+    "utility": "electricity",
+    "bill_id": "EL-2026-05",
+    "consumer_number": "APCPDCL-VJA-84920",
+    "amount": 831.0,
+    "method": "NetBanking (HDFC)",
+    "upi_ref": null,
+    "transaction_ref": "TXN-APCP-812039",
+    "date": "2026-06-12T10:15:00+05:30",
+    "status": "success",
+    "state_category": "completed",
+    "stages": [
+      {
+        "stage": "initiated",
+        "name": "Payment Initiated",
+        "timestamp": "2026-06-12T10:15:00+05:30",
+        "completed": true,
+        "detail": "Initiated via HDFC NetBanking."
+      },
+      {
+        "stage": "bank_processing",
+        "name": "Debited from Bank",
+        "timestamp": "2026-06-12T10:15:20+05:30",
+        "completed": true,
+        "detail": "Debited successfully. Ref: HDFC9912048."
+      },
+      {
+        "stage": "gateway_received",
+        "name": "Received by Utility Gateway",
+        "timestamp": "2026-06-12T10:15:45+05:30",
+        "completed": true,
+        "detail": "Verified by AP Online payment gateway."
+      },
+      {
+        "stage": "posted_to_account",
+        "name": "Posted to Discom Ledger",
+        "timestamp": "2026-06-12T10:16:30+05:30",
+        "completed": true,
+        "detail": "Official Discom Receipt #RCP-APCP-884920 issued. Balance updated to Rs 0."
+      }
+    ],
+    "explanation": {
+      "status_title": "Payment Successful & Reconciled",
+      "summary": "Bill paid in full and credited to APCPDCL consumer record. Receipt is downloadable.",
+      "action_recommended": "No further action needed.",
+      "posting_window": "Completed in 90 seconds"
+    }
+  },
+  {
+    "payment_id": "PAY-2026-66190",
+    "user_id": "user_1",
+    "utility": "electricity",
+    "bill_id": "EL-2026-04",
+    "consumer_number": "APCPDCL-VJA-84920",
+    "amount": 748.0,
+    "method": "Debit Card (Rupay)",
+    "upi_ref": null,
+    "transaction_ref": "TXN-APCP-748921",
+    "date": "2026-05-11T16:02:11+05:30",
+    "status": "failed_refunded",
+    "state_category": "failed_refunded",
+    "stages": [
+      {
+        "stage": "initiated",
+        "name": "Payment Initiated",
+        "timestamp": "2026-05-11T16:02:11+05:30",
+        "completed": true,
+        "detail": "Initiated via Rupay Card."
+      },
+      {
+        "stage": "bank_processing",
+        "name": "Bank Network Timeout",
+        "timestamp": "2026-05-11T16:03:00+05:30",
+        "completed": false,
+        "detail": "Bank 2FA session expired. Transaction declined by issuer."
+      },
+      {
+        "stage": "gateway_received",
+        "name": "Refund Initiated",
+        "timestamp": "2026-05-11T16:05:00+05:30",
+        "completed": true,
+        "detail": "Auto-reversal triggered by NPCI switch."
+      },
+      {
+        "stage": "posted_to_account",
+        "name": "Refund Credited to Account",
+        "timestamp": "2026-05-12T11:45:00+05:30",
+        "completed": true,
+        "detail": "Rs 748 credited back to bank account. Reference: REV-SBI-882910."
+      }
+    ],
+    "explanation": {
+      "status_title": "Transaction Failed & Auto-Refunded",
+      "summary": "The payment encountered a gateway timeout. The deducted amount was refunded back to your bank account within 24 hours.",
+      "action_recommended": "You may safely retry the payment using UPI or NetBanking.",
+      "posting_window": "Refund completed in 19 hours"
+    }
+  },
+  {
+    "payment_id": "PAY-2026-90412",
+    "user_id": "user_2",
+    "utility": "water",
+    "bill_id": "WT-2026-05",
+    "consumer_number": "VMC-WTR-39211",
+    "amount": 490.0,
+    "method": "UPI (PhonePe)",
+    "upi_ref": "UPI/418902819034/CR",
+    "transaction_ref": "TXN-VMC-391829",
+    "date": "2026-06-13T11:20:00+05:30",
+    "status": "success",
+    "state_category": "completed",
+    "stages": [
+      {
+        "stage": "initiated",
+        "name": "Payment Initiated",
+        "timestamp": "2026-06-13T11:20:00+05:30",
+        "completed": true,
+        "detail": "Initiated via PhonePe UPI."
+      },
+      {
+        "stage": "bank_processing",
+        "name": "Debited from Bank",
+        "timestamp": "2026-06-13T11:20:15+05:30",
+        "completed": true,
+        "detail": "Debited from ICICI Bank A/c."
+      },
+      {
+        "stage": "gateway_received",
+        "name": "Received by VMC Revenue Portal",
+        "timestamp": "2026-06-13T11:20:30+05:30",
+        "completed": true,
+        "detail": "Processed through AP Online Municipal Service Gateway."
+      },
+      {
+        "stage": "posted_to_account",
+        "name": "Posted to Water Works Ledger",
+        "timestamp": "2026-06-13T11:21:00+05:30",
+        "completed": true,
+        "detail": "VMC Water Receipt #VMC-REC-39182 issued."
+      }
+    ],
+    "explanation": {
+      "status_title": "Payment Successful & Reconciled",
+      "summary": "Water bill settled and cleared on municipal registry.",
+      "action_recommended": "No further action needed.",
+      "posting_window": "Immediate (under 1 min)"
+    }
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "NOTIF-2026-001",
+    "user_id": "user_1",
+    "type": "deadline",
+    "category": "bill",
+    "title": "Electricity Bill Due in 5 Days",
+    "message": "Your June 2026 bill of ₹1,641 is due on July 15. Pay before due date to avoid late payment surcharge of ₹50.",
+    "localized": {
+      "te": "మీ జూన్ 2026 విద్యుత్ బిల్లు ₹1,641 చెల్లించడానికి జూలై 15 ఆఖరి తేదీ. ఆలస్య రుసుము ₹50 నివారించడానికి గడువులోపు చెల్లించండి.",
+      "hi": "आपका जून 2026 का बिजली बिल ₹1,641 दिनांक 15 जुलाई तक देय है। ₹50 के विलंब शुल्क से बचने के लिए समय पर भुगतान करें।"
+    },
+    "severity": "warning",
+    "action_label": "View Bill",
+    "action_url": "/bills",
+    "created_at": "2026-07-10T09:00:00+05:30",
+    "read": false,
+    "event_id": "BILL_DUE_USER_1_2026_06",
+    "metadata": {
+      "bill_id": "EL-2026-06",
+      "amount": 1641.0,
+      "due_date": "2026-07-15",
+      "days_left": 5,
+      "late_fee": 50.0
+    }
+  },
+  {
+    "id": "NOTIF-2026-002",
+    "user_id": "user_1",
+    "type": "payment_stuck",
+    "category": "payment",
+    "title": "Payment In Transit Awaiting Settlement (>24 hrs)",
+    "message": "Your UPI payment of ₹1,641 (Ref: UPI/419208310928/CR) has been secured by BillDesk gateway pool and is awaiting batch posting to APCPDCL consumer ledger. Expected within 48h.",
+    "localized": {
+      "te": "మీ ₹1,641 UPI చెల్లింపు గేట్‌వే వద్ద సురక్షితంగా ఉంది. 48 గంటల రీకన్సిలియేషన్ సైకిల్ నడుస్తోంది. దయచేసి మళ్లీ చెల్లించవద్దు.",
+      "hi": "आपका ₹1,641 का UPI भुगतान गेटवे के पास सुरक्षित है। 48 घंटे के भीतर खाते में जुड़ जाएगा। कृपया दोबारा भुगतान न करें।"
+    },
+    "severity": "info",
+    "action_label": "Track Payment",
+    "action_url": "/payments",
+    "created_at": "2026-07-10T14:25:00+05:30",
+    "read": false,
+    "event_id": "PAY_STUCK_PAY_2026_88102",
+    "metadata": {
+      "payment_id": "PAY-2026-88102",
+      "amount": 1641.0,
+      "upi_ref": "UPI/419208310928/CR",
+      "stuck_hours": 26
+    }
+  },
+  {
+    "id": "NOTIF-2026-003",
+    "user_id": "user_1",
+    "type": "outage_update",
+    "category": "outage",
+    "title": "Water Main Restoration Update: Benz Circle",
+    "message": "Rapid repair crew assigned with dewatering pumps. 14 neighbours reported. Estimated water supply resumption by 4:00 PM today.",
+    "localized": {
+      "te": "బెంజ్ సర్కిల్ నీటి పైప్‌లైన్ మరమ్మతు బృందం పని చేస్తోంది. 14 మంది ఇరుగుపొరుగు నివేదించారు. సాయంత్రం 4:00 గంటలకు సరఫరా పునరుద్ధరించబడుతుంది.",
+      "hi": "बेंज सर्किल में मुख्य पाइपलाइन की मरम्मत जारी है। 14 पड़ोसियों ने शिकायत दर्ज कराई। संभावित बहाली आज शाम 4:00 बजे।"
+    },
+    "severity": "warning",
+    "action_label": "See Outage Map",
+    "action_url": "/outages",
+    "created_at": "2026-07-11T08:30:00+05:30",
+    "read": false,
+    "event_id": "OUTAGE_UPDATE_OUT_1012",
+    "metadata": {
+      "outage_id": "OUT-1012",
+      "locality": "Benz Circle",
+      "utility": "water",
+      "status": "crew_assigned",
+      "can_confirm_fixed": false
+    }
+  },
+  {
+    "id": "NOTIF-2026-004",
+    "user_id": "user_1",
+    "type": "usage_insight",
+    "category": "insight",
+    "title": "High Consumption Alert: Slab 4 Entered",
+    "message": "Your electricity usage this month (285 units) crossed into Slab 4 (₹7.10/unit), adding ₹603.50. Setting AC to 24°C will save ~₹500 next month.",
+    "localized": {
+      "te": "ఈ నెల మీ విద్యుత్ వాడకం స్లాబ్ 4 (₹7.10/యూనిట్) లోకి ప్రవేశించింది. ఏసీని 24°C వద్ద ఉంచడం ద్వారా వచ్చే నెల ₹500 ఆదా చేయవచ్చు.",
+      "hi": "इस महीने आपकी बिजली खपत स्लैब 4 (₹7.10/यूनिट) में पहुंच गई है। एसी 24°C पर चलाकर ₹500 बचा सकते हैं।"
+    },
+    "severity": "info",
+    "action_label": "View Breakdown",
+    "action_url": "/bills",
+    "created_at": "2026-07-09T18:00:00+05:30",
+    "read": true,
+    "event_id": "INSIGHT_SLAB_CROSS_USER_1",
+    "metadata": {
+      "units": 285,
+      "previous_units": 175,
+      "slab_name": "Slab 4 (201-300 units)",
+      "potential_savings": 500.0
+    }
+  },
+  {
+    "id": "NOTIF-2026-005",
+    "user_id": "user_1",
+    "type": "outage_resolved",
+    "category": "outage",
+    "title": "Power Restored: Auto Nagar Feeder",
+    "message": "33kV feeder line has been repaired and power restored ahead of schedule. Please let us know: Is your supply working normally?",
+    "localized": {
+      "te": "ఆటో నగర్ విద్యుత్ సరఫరా పునరుద్ధరించబడింది. మీ ఇంట్లో కరెంట్ వచ్చిందో లేదో నిర్ధారించండి.",
+      "hi": "ऑटो नगर में बिजली आपूर्ति बहाल कर दी गई है। क्या आपकी बिजली सामान्य रूप से काम कर रही है?"
+    },
+    "severity": "success",
+    "action_label": "Confirm Status",
+    "action_url": "/outages",
+    "created_at": "2026-07-10T22:30:00+05:30",
+    "read": true,
+    "event_id": "OUTAGE_RESOLVED_OUT_1019",
+    "metadata": {
+      "outage_id": "OUT-1019",
+      "locality": "Auto Nagar",
+      "utility": "electricity",
+      "status": "resolved",
+      "can_confirm_fixed": true,
+      "feedback_status": null
+    }
+  },
+  {
+    "id": "NOTIF-2026-006",
+    "user_id": "user_2",
+    "type": "usage_insight",
+    "category": "insight",
+    "title": "Possible Water Leak Detected at Benz Circle",
+    "message": "Water consumption surged by 52% to 38 kL this month compared to your 25 kL average. Check overhead tank float valves and garden taps.",
+    "localized": {
+      "te": "ఈ నెల మీ నీటి వినియోగం 38 kL కు పెరిగింది (సగటు 25 kL). ఓవర్‌హెడ్ ట్యాంక్ ఫ్లోట్ వాల్వ్‌ను ఒకసారి తనిఖీ చేయండి.",
+      "hi": "इस महीने पानी की खपत 52% बढ़कर 38 kL हो गई। ओवरहेड टैंक के फ्लोट वॉल्व की जांच करें।"
+    },
+    "severity": "warning",
+    "action_label": "View Water Bill",
+    "action_url": "/bills",
+    "created_at": "2026-07-10T11:00:00+05:30",
+    "read": false,
+    "event_id": "INSIGHT_WATER_LEAK_USER_2",
+    "metadata": {
+      "units": 38,
+      "avg_units": 25,
+      "utility": "water"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "user_1",
+    "name": "Lakshmi Devi",
+    "locale_name": {
+      "en": "Lakshmi Devi",
+      "te": "లక్ష్మీ దేవి",
+      "hi": "लक्ष्मी देवी"
+    },
+    "city": "Vijayawada",
+    "locality": "Labbipet",
+    "address": "D.No 40-1-28, MG Road, Labbipet, Vijayawada 520010",
+    "phone": "+91 98480 23419",
+    "primary_utility": "electricity",
+    "consumer_numbers": {
+      "electricity": "APCPDCL-VJA-84920",
+      "water": "VMC-WTR-20491"
+    },
+    "substation": "Labbipet 33/11kV Substation",
+    "water_ward": "VMC Ward 24 (Central Zone)",
+    "profile_summary": "Homemaker managing domestic utility bills for a 3-member household with 2 ceiling fans, refrigerator, and newly added 1.5-ton AC."
+  },
+  {
+    "id": "user_2",
+    "name": "Ravi Kumar",
+    "locale_name": {
+      "en": "Ravi Kumar",
+      "te": "రవి కుమార్",
+      "hi": "रवि कुमार"
+    },
+    "city": "Vijayawada",
+    "locality": "Benz Circle",
+    "address": "Flat 302, Sri Sai Residency, Benz Circle, Vijayawada 520008",
+    "phone": "+91 94401 55928",
+    "primary_utility": "water",
+    "consumer_numbers": {
+      "electricity": "APCPDCL-VJA-11942",
+      "water": "VMC-WTR-39211"
+    },
+    "substation": "Patamata 33/11kV Substation",
+    "water_ward": "VMC Ward 32 (East Zone)",
+    "profile_summary": "Apartment resident experiencing erratic water pressure and tracking municipal water pipeline repairs."
+  }
+]

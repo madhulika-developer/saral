@@ -1,0 +1,50 @@
+{
+  "user_1": {
+    "user_id": "user_1",
+    "lead_time_days": 3,
+    "channels": {
+      "in_app": true,
+      "browser_push": true,
+      "sms": true,
+      "whatsapp": true,
+      "email": false
+    },
+    "types": {
+      "deadlines": true,
+      "payments": true,
+      "offline_payments": true,
+      "outages": true,
+      "updates": true,
+      "insights": true
+    },
+    "quiet_hours": {
+      "enabled": false,
+      "start": "22:00",
+      "end": "07:00"
+    }
+  },
+  "user_2": {
+    "user_id": "user_2",
+    "lead_time_days": 1,
+    "channels": {
+      "in_app": true,
+      "browser_push": false,
+      "sms": true,
+      "whatsapp": true,
+      "email": true
+    },
+    "types": {
+      "deadlines": true,
+      "payments": true,
+      "offline_payments": true,
+      "outages": true,
+      "updates": true,
+      "insights": true
+    },
+    "quiet_hours": {
+      "enabled": true,
+      "start": "22:00",
+      "end": "07:00"
+    }
+  }
+}

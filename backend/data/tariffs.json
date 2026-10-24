@@ -1,0 +1,29 @@
+{
+  "electricity": {
+    "provider": "APCPDCL (Andhra Pradesh Central Power Distribution)",
+    "category": "LT-I Domestic Telescopic",
+    "slabs": [
+      { "min": 0, "max": 50, "rate": 2.65, "name": "Lifeline (0-50 units)" },
+      { "min": 50, "max": 100, "rate": 3.35, "name": "Basic (51-100 units)" },
+      { "min": 100, "max": 200, "rate": 5.40, "name": "Moderate (101-200 units)" },
+      { "min": 200, "max": 300, "rate": 7.10, "name": "High (201-300 units)" },
+      { "min": 300, "max": null, "rate": 7.95, "name": "Peak (>300 units)" }
+    ],
+    "fixed_charge": 40.0,
+    "duty_rate": 0.06,
+    "fsa_per_unit": 0.25,
+    "disclaimer": "Illustrative domestic tariff modeled on APCPDCL slabs. Not an official discom document."
+  },
+  "water": {
+    "provider": "Vijayawada Municipal Corporation (VMC) Water Works",
+    "category": "Domestic Metered",
+    "slabs": [
+      { "min": 0, "max": 15, "rate": 12.0, "name": "Essential (0-15 kL)" },
+      { "min": 15, "max": 30, "rate": 20.0, "name": "Standard (16-30 kL)" },
+      { "min": 30, "max": null, "rate": 32.0, "name": "High Usage (>30 kL)" }
+    ],
+    "base_charge": 80.0,
+    "sewerage_cess_rate": 0.15,
+    "disclaimer": "Illustrative domestic water supply tariff modeled on VMC municipal guidelines. Not an official document."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "saral",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Saral - Your electricity and water, explained. 24-Hour Hackathon Project.",
+  "scripts": {
+    "postinstall": "npm --prefix frontend install",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "test:backend": "py -3.13 -m pytest backend/tests -v",
+    "start:backend": "py -3.13 -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload"
+  },
+  "keywords": [
+    "utility",
+    "electricity",
+    "water",
+    "fastapi",
+    "react",
+    "i18n",
+    "hackathon"
+  ],
+  "author": "Saral Team"
+}
